@@ -1,0 +1,227 @@
+
+
+.artist-info {
+  background-color: #fff
+}
+
+.more-info {
+  position: relative;
+  top: 15px;
+}
+
+.white-text {
+  color: #fff;
+  margin: 0 0 3px 0;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+
+
+
+}
+
+.navbar-toggler-icon {
+  background-color: #66FCF1
+  
+}
+
+
+.blue-text {
+  margin-bottom: 5px;
+  color: #66FCF1;
+  font-size: 30px;
+  font-family: 'Alfa Slab One', cursive;
+  
+}
+
+
+
+
+
+
+.navbar-light a:hover {
+  opacity: 0.9;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+
+
+.navbar-light ul li a:hover {
+  display: inline-table;
+  background-color: #66FCF1;
+  transition: 1.2s;
+  border: 1px #66FCF1;
+  border-radius: 3.5px;
+  font-size: 120%;
+  transition-duration: 1.5s;
+}
+
+
+li {
+  margin-right: 60px;
+}
+
+.today-event {
+  color: #66FCF1;
+  margin-top: 0px;
+  margin-left: 4px;
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+}
+.img-responsive {
+  margin-top: 24px
+}
+
+.fa-twitter {
+  background: #0B0B0B; 
+  color:  #66FCF1;
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-decoration: none;
+  border-radius: 50%;
+  
+  
+}
+
+.fa-instagram {
+  background: #0B0B0B;
+  color: #66FCF1;
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  
+  text-decoration: none;
+  border-radius: 50%;
+ 
+}
+
+
+.week-event {
+  font-family: 'Anton', sans-serif;
+  color: #66FCF1;
+  font-size:65px;
+}
+
+.weekly {
+  margin-right:10px;
+}
+
+.weekend{
+  margin-right:10px;
+}
+
+.rounded-circle {
+  border:3px solid white;
+}
+
+.all-white {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.all-blue{
+  color:#66FCF1;
+  font-family: 'Anton', sans-serif;
+  
+}
+
+.about-us {
+  background-color: #0B0B0B;
+}
+
+
+.img-responsive {
+  max-width: 1000px;
+  min-height: 400px;
+  max-height: 550px;
+}
+
+.bg-custom {
+  background-color: #0B0B0B
+}
+
+.more-info {
+  font-family: 'Alfa Slab One', cursive;
+  word-spacing: 4px;
+  color:#585757;
+}
+
+.day-blue {
+  color: #66FCF1;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+
+
+@media screen and (min-width: 630px) {
+.rounded-circle {
+    width:100px;
+    height:100px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+.rounded-circle  {
+    width:50px;
+    height:50px;
+  }
+}
+
+@media screen and (min-width: 630px) {
+.day-blue {
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+.day-blue  {
+    font-size:16px;
+  }
+}
+
+.artist-name {
+  color: white;
+  font-size:20px;
+  
+}
+
+@media screen and (min-width: 630px) {
+.artist-name {
+    font-size:20px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+.artist-name  {
+    font-size:13px;
+  }
+}
+
+.table-dark {
+  background-color: #000000
+}
+
+@media screen and (min-width: 630px) {
+.week-event {
+    font-size: 65px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+.week-event  {
+    font-size:43px;
+  }
+}
+
+.d-block {
+  max-height: 540px;
+  min-height: 350px
+  
+}
