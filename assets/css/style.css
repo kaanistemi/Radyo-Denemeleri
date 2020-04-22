@@ -139,11 +139,15 @@ color:white;
 
 .green-audio-player .controls:focus {
   outline: none;
+
 }
 
 .green-audio-player .volume {
   position: relative;
+
 }
+
+
 
 .green-audio-player .volume .volume__button {
   cursor: pointer;
@@ -156,7 +160,7 @@ color:white;
 }
 
 .green-audio-player .volume .volume__button.open path {
-  fill: #44bfa3;
+  fill: #66FCF1
 }
 
 .green-audio-player .volume .volume__controls {
@@ -172,6 +176,7 @@ color:white;
   display: flex;
   z-index: 2;
   outline: none;
+  
 }
 
 .green-audio-player .volume .volume__controls .volume__slider {
@@ -186,6 +191,7 @@ color:white;
   bottom: 0;
   height: 100%;
   width: 6px;
+  color: #66FCF1;
 }
 
 .green-audio-player .volume .volume__controls .volume__slider .volume__progress .volume__pin {
@@ -193,8 +199,9 @@ color:white;
   top: -8px;
 }
 
-.green-audio-player .volume .volume__controls:focus {
-  outline-color: #66FCF1
+.green-audio-player .volume .volume__controls: {
+  color: #66FCF1;
+
 }
 
 .green-audio-player .volume .volume__controls.hidden {
@@ -375,6 +382,7 @@ li {
 .all-white {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 .all-blue{
@@ -482,3 +490,113 @@ li {
   
 }
 
+.uppercase {
+  color: #66FCF1;
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+}
+
+@media screen and (min-width: 630px) {
+.uppercase {
+    font-size: 60px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+.uppercase  {
+    font-size:33px;
+  }
+}
+
+.btn{
+  background-color: #66FCF1;
+}
+
+@media screen and (min-width: 630px) {
+.all-white {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+.all-white  {
+    font-size: 14px;
+  }
+}
+
+.img-thumbnail {
+  max-height: 600px;
+  min-height: 200px;
+  width: 750px
+  
+}
+
+.program {
+  width: 100%;
+  max-width:520px;
+  min-height: 150px;
+  max-height: 480px;
+}
+
+
+.program {
+position: relative;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+
+.program:hover
+{
+    z-index:2;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);  
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.ekip-white {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 630px) {
+.ekip-white {
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+.ekip-white  {
+    font-size: 18px;
+  }
+}
+
+.ekip-instagram {
+    background: #000000;
+  color: #66FCF1;
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.iletisim-text {
+  color:#66FCF1;
+}
+
+.iletisim-text:link {
+  color: #66FCF1;
+  background-color: transparent;
+  text-decoration: underline;
+}
