@@ -485,7 +485,7 @@ li {
 }
 
 .d-block {
-  max-height: 540px;
+  width: 540px;
   min-height: 350px
   
 }
@@ -599,4 +599,12 @@ position: relative;
   color: #66FCF1;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.fixed-bottom {
+  padding: 0px;
+}
+
+iframe {
+  border-color: transparent
 }
