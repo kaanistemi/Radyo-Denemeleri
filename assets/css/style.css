@@ -43,28 +43,28 @@
   border-right-color: rgba(0, 0, 0, 0);
   border-radius: 50%;
   animation: spin 0.4s linear infinite;
-  
+
 }
 
 .green-audio-player .holder .play-pause-btn {
 
--moz-border-radius: 50px;
-    border-radius: 50px;
-border: 5px solid #66FCF1;
-    background-color:#fff;
-color:white;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:7px;
-    padding-bottom:7px;
-    font-size:1.3em;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: 5px solid #66FCF1;
+  background-color: #fff;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 1.3em;
 
 
 }
 
 .green-audio-player .holder .play-pause-btn:focus {
   outline: none;
-  
+
 }
 
 .green-audio-player .slider {
@@ -85,7 +85,8 @@ color:white;
   height: 16px;
   width: 16px;
   border-radius: 8px;
-  background-color: #66FCF1; ;
+  background-color: #66FCF1;
+  ;
   position: absolute;
   pointer-events: all;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.32);
@@ -176,7 +177,7 @@ color:white;
   display: flex;
   z-index: 2;
   outline: none;
-  
+
 }
 
 .green-audio-player .volume .volume__controls .volume__slider {
@@ -272,7 +273,6 @@ color:white;
 
 .navbar-toggler-icon {
   background-color: #66FCF1
-  
 }
 
 
@@ -281,7 +281,7 @@ color:white;
   color: #66FCF1;
   font-size: 30px;
   font-family: 'Alfa Slab One', cursive;
-  
+
 }
 
 
@@ -320,20 +320,21 @@ li {
   font-family: 'Anton', sans-serif;
   font-size: 70px;
 }
+
 .img-responsive {
   margin-top: 24px
 }
 
 .fa-twitter {
-  background: #0B0B0B; 
-  color:  #66FCF1;
+  background: #0B0B0B;
+  color: #66FCF1;
   padding: 10px;
   font-size: 30px;
   width: 40px;
   text-decoration: none;
   border-radius: 50%;
-  
-  
+
+
 }
 
 .fa-instagram {
@@ -342,10 +343,10 @@ li {
   padding: 10px;
   font-size: 30px;
   width: 40px;
-  
+
   text-decoration: none;
   border-radius: 50%;
- 
+
 }
 
 .fa-soundcloud {
@@ -354,41 +355,42 @@ li {
   padding: 10px;
   font-size: 30px;
   width: 40px;
-  
+
   text-decoration: none;
   border-radius: 50%;
- 
+
 }
 
 
 .week-event {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Kanit', sans-serif;
   color: #66FCF1;
-  font-size:65px;
+  font-size: 65px;
+  margin-top: 80px;
 }
 
 .weekly {
-  margin-right:10px;
+  margin-right: 10px;
 }
 
-.weekend{
-  margin-right:10px;
+.weekend {
+  margin-right: 10px;
 }
 
 .rounded-circle {
-  border:3px solid white;
+  border: 3px solid white;
 }
 
 .all-white {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
-.all-blue{
-  color:#66FCF1;
+.all-blue {
+  color: #66FCF1;
   font-family: 'Anton', sans-serif;
-  
+
 }
 
 .about-us {
@@ -409,7 +411,7 @@ li {
 .more-info {
   font-family: 'Alfa Slab One', cursive;
   word-spacing: 4px;
-  color:#585757;
+  color: #585757;
 }
 
 .day-blue {
@@ -421,108 +423,108 @@ li {
 
 
 @media screen and (min-width: 630px) {
-.rounded-circle {
-    width:100px;
-    height:100px;
+  .rounded-circle {
+    width: 100px;
+    height: 100px;
   }
 }
 
 
 @media screen and (max-width: 631px) {
-.rounded-circle  {
-    width:50px;
-    height:50px;
+  .rounded-circle {
+    width: 50px;
+    height: 50px;
   }
 }
 
 @media screen and (min-width: 630px) {
-.day-blue {
+  .day-blue {
     font-size: 30px;
   }
 }
 
 
 @media screen and (max-width: 631px) {
-.day-blue  {
-    font-size:16px;
+  .day-blue {
+    font-size: 16px;
   }
 }
 
 .artist-name {
   color: white;
-  font-size:20px;
-  
+  font-size: 20px;
+
 }
 
 @media screen and (min-width: 630px) {
-.artist-name {
-    font-size:20px;
+  .artist-name {
+    font-size: 20px;
   }
 }
 
 
 @media screen and (max-width: 631px) {
-.artist-name  {
-    font-size:13px;
+  .artist-name {
+    font-size: 13px;
   }
 }
 
 .table-dark {
-  background-color: #000000
+  background-color: #000000;
+  margin-right:50px;
 }
 
 @media screen and (min-width: 630px) {
-.week-event {
+  .week-event {
     font-size: 65px;
   }
 }
 
 
 @media screen and (max-width: 631px) {
-.week-event  {
-    font-size:43px;
+  .week-event {
+    font-size: 35px;
   }
 }
 
 .d-block {
   width: 540px;
   min-height: 350px
-  
 }
 
 .uppercase {
   color: #66FCF1;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 60px;
 }
 
 @media screen and (min-width: 630px) {
-.uppercase {
+  .uppercase {
     font-size: 60px;
   }
 }
 
 
 @media screen and (max-width: 631px) {
-.uppercase  {
-    font-size:33px;
+  .uppercase {
+    font-size: 33px;
   }
 }
 
-.btn{
+.btn {
   background-color: #66FCF1;
 }
 
 @media screen and (min-width: 630px) {
-.all-white {
-    font-size: 16px;
+  .all-white {
+    font-size: 17px;
   }
 }
 
 
 @media screen and (max-width: 631px) {
-.all-white  {
-    font-size: 14px;
+  .all-white {
+    font-size: 15px;
   }
 }
 
@@ -530,35 +532,33 @@ li {
   max-height: 600px;
   min-height: 200px;
   width: 750px
-  
 }
 
 .program {
   width: 100%;
-  max-width:520px;
+  max-width: 520px;
   min-height: 150px;
   max-height: 480px;
 }
 
 
 .program {
-position: relative;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    -moz-transform: scale(1);
-    transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
+  position: relative;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
 }
 
-.program:hover
-{
-    z-index:2;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);  
-    -moz-transform: scale(1.1);
-    transform: scale(1.1);
+.program:hover {
+  z-index: 2;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .ekip-white {
@@ -568,31 +568,31 @@ position: relative;
 }
 
 @media screen and (min-width: 630px) {
-.ekip-white {
+  .ekip-white {
     font-size: 25px;
   }
 }
 
 
 @media screen and (max-width: 631px) {
-.ekip-white  {
+  .ekip-white {
     font-size: 18px;
   }
 }
 
 .ekip-instagram {
-    background: #000000;
+  background: #000000;
   color: #66FCF1;
   padding: 10px;
   font-size: 30px;
   width: 40px;
-  
+
   text-decoration: none;
   border-radius: 50%;
 }
 
 .iletisim-text {
-  color:#66FCF1;
+  color: #66FCF1;
 }
 
 .iletisim-text:link {
@@ -605,6 +605,112 @@ position: relative;
   padding: 0px;
 }
 
-iframe {
-  border-color: transparent
+
+
+.d-block {
+  max-height: 640px;
+  min-height: 300px;
+
 }
+
+.program-2 {
+  width: 100%;
+  max-width: 450px;
+  min-height: 150px;
+  max-height: 415px;
+
+}
+
+.program-2 {
+  position: relative;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+}
+
+.program-2:hover {
+  z-index: 2;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.artist-name:hover {
+  color: #ffffff;
+}
+
+.all-white-2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  margin-left: 98px;
+  margin-right: 98px;
+}
+
+@media screen and (min-width: 1050px) {
+  .all-white-2 {
+    margin-left: 98px;
+    margin-right: 98px;
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 1051px) {
+  .all-white-2 {
+    margin-left: 0px;
+    margin-right:0px;
+    font-size: 15px;
+  }
+}
+
+.all-white-3 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 630px) {
+  .all-white-3 {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .all-white-3 {
+    font-size: 14px;
+  }
+}
+
+.time{
+  margin-top: 50px;
+}
+
+.artist-name-2 {
+  color: white;
+  font-size: 20px;
+  
+}
+
+@media screen and (min-width: 630px) {
+  .artist-name-2 {
+    font-size: 20px;
+  
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .artist-name-2 {
+    font-size: 13px;
+    
+  }
+}
+
+
