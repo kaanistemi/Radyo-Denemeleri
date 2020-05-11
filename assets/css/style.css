@@ -366,7 +366,7 @@ li {
   font-family: 'Kanit', sans-serif;
   color: #66FCF1;
   font-size: 65px;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .weekly {
@@ -487,10 +487,7 @@ li {
   }
 }
 
-.d-block {
-  width: 540px;
-  min-height: 350px
-}
+
 
 .uppercase {
   color: #66FCF1;
@@ -608,8 +605,9 @@ li {
 
 
 .d-block {
-  max-height: 640px;
   min-height: 300px;
+  max-height: 690px;
+  width:100%;
 
 }
 
@@ -713,4 +711,18 @@ li {
   }
 }
 
+@media screen and (min-width: 630px) {
+  .week-event {
+    margin-top: 90px;
+  
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .week-event {
+    margin-top: 50px;
+    
+  }
+}
 
