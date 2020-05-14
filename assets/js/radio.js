@@ -30,6 +30,8 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 var GreenAudioPlayer =  /*#__PURE__*/function () {
   function GreenAudioPlayer(player, options) {
     _classCallCheck(this, GreenAudioPlayer);
+    
+
 
 
 

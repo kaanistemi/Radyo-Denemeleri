@@ -253,12 +253,13 @@
 }
 
 .artist-info {
-  background-color: #fff
+  background-color: #000000
 }
 
 .more-info {
   position: relative;
   top: 15px;
+  color: #66FCF1
 }
 
 .white-text {
@@ -411,7 +412,9 @@ li {
 .more-info {
   font-family: 'Alfa Slab One', cursive;
   word-spacing: 4px;
-  color: #585757;
+  color: #66FCF1;
+  margin-top:40px;
+  font-size: 25px;
 }
 
 .day-blue {
@@ -605,9 +608,9 @@ li {
 
 
 .d-block {
-  min-height: 300px;
-  max-height: 690px;
+  height: 84%;
   width:100%;
+  
 
 }
 
@@ -726,3 +729,23 @@ li {
   }
 }
 
+@media only screen and (max-width: 600px) {
+
+.d-block {
+width: 100%; 
+height: 83%; 
+margin: 0; 
+padding: 0;
+}
+}
+
+.about-us {
+  margin-bottom: 140px;
+}
+
+@media only screen and (max-width: 730px) {
+
+.artist-info {
+display:none;
+}
+}
