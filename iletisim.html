@@ -2,10 +2,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Green Audio Player</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radio Racoon</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -34,13 +38,21 @@
             padding: 12px;
         }
     </style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_y6bSc0aiGtR55KvJdZ5Ix");
+            emailjs.send("gmail", "radio_racoon",{name: "Racoon", notes: "Merhaba"} )
+        })();
+    </script>
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-custom">
         <a class="navbar-brand" href="index.html">
-            <p class="blue-text">RR</p>
+            <img src=assets/images/logo.png alt="Istanbul1" class="logo-circle" height=60 width=60><span class="logo-text"> Radio Racoon</span>
             <div class="icons">
 
             </div>
@@ -66,7 +78,7 @@
                 </li>
                 <li class="nav-item active ">
                     <a class="nav-link" href="iletisim.html">
-                        <p class="white-text">Iletisim</p><span class="sr-only">(current)</span></a>
+                        <p class="white-text">İletişim</p><span class="sr-only">(current)</span></a>
                 </li>
 
             </ul>
@@ -83,17 +95,17 @@
     <section class="container mt-5">
         <div class="row bg-color-contact">
             <div class="col">
-                <h3 class="contact-heading uppercase text-center"><strong>Darlanan Yazsin</strong></h3>
-                <h5 class="uppercase text-center">Belki birlikte muzik yapariz..</h5>
+                <h3 class="contact-heading uppercase text-center"><strong>Darlanan Yazsın! </strong></h3>
+                <h5 class="uppercase text-center">Belki birlikte müzik yaparız..</h5>
 
                 <div class="center-form">
-                    <form>
+                    <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Ad/Soyad" required/>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="E-mail" required/>
-                        <textarea rows="7" name="holidayplan" id="holidayplan" class="form-control" placeholder="Kimsin? Ne Dinlersin? Ne icersin?" required/></textarea>
+                        <input type="text" name="emailadress" id="emailaddress" class="form-control" placeholder="E-mail" required/>
+                        <textarea rows="7" name="radiosummary" id="radiosummary" class="form-control" placeholder="Kimsin? Ne Dinlersin? Ne içersin?" required/></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-dark"><strong>Gonder Gelsin!</strong></button>
+                                <button type="submit" class="btn btn-dark" onclick="submitForm()"><strong>Gönder gelsin!</strong></button>
                             </div>
                         </div>
                     </form>
@@ -102,7 +114,7 @@
         </div>
 
 
-
+        <script src="assets/js/sendEmail.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
