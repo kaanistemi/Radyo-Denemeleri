@@ -513,7 +513,7 @@ li {
 .logo-text {
   font-family: 'Kanit', sans-serif;
   color: white;
-  font-size: 33px;
+  font-size: 31px;
   margin-top: 15px;
   position:relative;
   top:5px; 
@@ -529,7 +529,7 @@ li {
 
 @media screen and (min-width: 630px) {
   .logo-text {
-    font-size: 33px;
+    font-size: 31px;
     top:5px;
   }
 }
@@ -557,5 +557,24 @@ li {
     height: 48px;
     margin-left: 0px;
     
+  }
+}
+
+.ekip-white-3 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+
+@media screen and (min-width: 630px) {
+  .ekip-white-3 {
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .ekip-white-3 {
+    font-size: 18px;
   }
 }
