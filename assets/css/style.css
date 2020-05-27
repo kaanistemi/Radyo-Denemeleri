@@ -196,6 +196,7 @@ li {
   .day-blue {
     font-size: 16px;
     margin-right:5px;
+    line-height: 1px;
   }
 }
 
@@ -600,3 +601,28 @@ li {
 }
 
 
+.day-blue-2 {
+  color: #66FCF1;
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: 'Kanit', sans-serif;
+  margin-right:40px;
+}
+
+
+
+@media screen and (min-width: 630px) {
+  .day-blue-2 {
+    font-size: 30px;
+    margin-right:40px;
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .day-blue-2 {
+    font-size: 16px;
+    margin-right:5px;
+
+  }
+}
