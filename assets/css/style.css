@@ -219,6 +219,7 @@ li {
 .table-dark {
   background-color: #000000;
 
+
 }
 
 @media screen and (min-width: 630px) {
@@ -504,9 +505,7 @@ li {
 
 
 @media screen and (max-width: 631px) {
-  .weekly {
-    
-  }
+  .weekly {}
 }
 
 .logo-text {
@@ -514,10 +513,10 @@ li {
   color: white;
   font-size: 31px;
   margin-top: 15px;
-  position:relative;
-  top:5px; 
-  left:0px;
-  
+  position: relative;
+  top: 5px;
+  left: 0px;
+
 }
 
 .logo-circle {
@@ -529,7 +528,7 @@ li {
 @media screen and (min-width: 630px) {
   .logo-text {
     font-size: 31px;
-    top:5px;
+    top: 5px;
   }
 }
 
@@ -537,7 +536,7 @@ li {
 @media screen and (max-width: 631px) {
   .logo-text {
     font-size: 18px;
-    top:0px;
+    top: 0px;
   }
 }
 
@@ -554,8 +553,8 @@ li {
   .logo-circle {
     width: 48px;
     height: 48px;
-    margin-left:0px;
-    
+    margin-left: 0px;
+
   }
 }
 
@@ -582,7 +581,19 @@ li {
 
 
 
-.text-center{
-  margin:0px;
-  padding:0px;
+.text-center {
+  margin: 0px;
+  padding: 0px;
 }
+
+
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  table-layout:fixed
+
+}
+
+
