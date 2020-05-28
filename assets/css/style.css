@@ -179,8 +179,8 @@ li {
 
 @media screen and (max-width: 631px) {
   .rounded-circle {
-    width: 52px;
-    height: 52px;
+    width: 49px;
+    height: 49px;
   }
 }
 
@@ -194,8 +194,7 @@ li {
 
 @media screen and (max-width: 631px) {
   .day-blue {
-    font-size: 16px;
-    margin-right:5px;
+    font-size: 15px;
     line-height: 1px;
   }
 }
@@ -216,7 +215,7 @@ li {
 
 @media screen and (max-width: 631px) {
   .artist-name {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -459,7 +458,7 @@ li {
 
 @media screen and (max-width: 631px) {
   .artist-name-2 {
-    font-size: 12px;
+    font-size: 11px;
 
   }
 }
@@ -621,8 +620,8 @@ li {
 
 @media screen and (max-width: 631px) {
   .day-blue-2 {
-    font-size: 16px;
-    margin-right:5px;
+    font-size: 15px;
 
-  }
+    
+}
 }
