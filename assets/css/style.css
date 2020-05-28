@@ -169,6 +169,7 @@ li {
 
 
 
+
 @media screen and (min-width: 630px) {
   .rounded-circle {
 
@@ -184,6 +185,13 @@ li {
   }
 }
 
+@media screen and (max-width: 376px) {
+  .rounded-circle {
+    width: 40px;
+    height:40px;
+  }
+}
+
 @media screen and (min-width: 630px) {
   .day-blue {
     font-size: 30px;
@@ -195,6 +203,13 @@ li {
 @media screen and (max-width: 631px) {
   .day-blue {
     font-size: 13px;
+    line-height: 1px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .day-blue {
+    font-size: 11px;
     line-height: 1px;
   }
 }
@@ -216,6 +231,12 @@ li {
 @media screen and (max-width: 631px) {
   .artist-name {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .artist-name {
+    font-size: 9px;
   }
 }
 
@@ -462,6 +483,11 @@ li {
 
   }
 }
+@media screen and (max-width: 376px) {
+  .artist-name-2 {
+    font-size: 9px;
+  }
+}
 
 @media screen and (min-width: 630px) {
   .week-event {
@@ -626,6 +652,12 @@ li {
 }
 }
 
+@media screen and (max-width: 376px) {
+  .day-blue-2 {
+    font-size: 11px;
+  }
+}
+
 @media screen and (min-width: 630px) {
 .rounded-circle {
   border: 3px solid white;
@@ -639,3 +671,7 @@ li {
 
 }
 }
+
+
+
+
