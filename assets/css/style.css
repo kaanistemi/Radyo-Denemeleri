@@ -96,6 +96,30 @@ li {
 
 }
 
+.fa-facebook {
+  background: #0B0B0B;
+  color: #66FCF1;
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+.fa-spotify {
+  background: #0B0B0B;
+  color: #66FCF1;
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
 .fa-soundcloud {
   background: #0B0B0B;
   color: #66FCF1;
