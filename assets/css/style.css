@@ -695,3 +695,305 @@ li {
 
 }
 }
+
+
+
+
+
+
+
+
+
+
+/* ============================================================= */
+/* styles for schedule part */
+/* ============================================================= */
+.weekly {
+  background-color: #000;
+}
+
+/* schedule header styles start */
+.scheduleContainer{
+  background-color: #000;
+}
+
+.scheduleContainer .scheduleHeader{
+  padding: 35px 0;
+  padding-bottom: 50px;
+}
+
+.scheduleContainer .scheduleHeader .scheduleDays{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.scheduleContainer .scheduleHeader .scheduleDays .daysItem{
+  display: inline-block;
+  margin: 0;
+  padding: 0 15px;
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 575px) {
+  .scheduleContainer .scheduleHeader .scheduleDays .daysItem {
+    padding: 0 10px;
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  line-height: 2;
+  text-transform: capitalize;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink{
+    font-size: 20px;
+  }
+}
+/* -------------------------------- */
+
+
+.scheduleContainer .scheduleHeader .scheduleDays .daysItem
+.daysLink.active{
+  color: #66FCF1;
+}
+
+.scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink:hover{
+  color: #66FCF1;
+}
+
+/* schedule content styles start */
+.scheduleContainer .scheduleContent .scheduleTab{
+  display: none;
+}
+
+.scheduleContainer .scheduleContent .scheduleTab.active{
+  display: block;
+}
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem{
+  padding-bottom: 30px;
+  margin: 0 5%; 
+  margin-bottom: 60px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  transition: 1s;
+
+  /* layout styles */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem.active{
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  0% {
+    transform: translateY(50%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  display: block;
+  opacity: .5;
+  height: 3px;
+  width: 100%;
+  background-image: url(../images/dotted.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 767px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem .titleTime{
+  /* layout styles */
+  display: flex;
+  align-items: center;
+  width: calc(100% - 280px);
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleContent .scheduleTab
+  .scheduleItem .titleTime{
+    width: calc(100% - 200px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .scheduleContainer .scheduleContent .scheduleTab
+  .scheduleItem .titleTime{
+    align-items: start;
+    width: auto;
+    max-width: 100%;
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+.titleTime .scheduleTime{
+  width: 130px;
+  padding: 5px 0;
+  margin-left: 7px;
+  border-right: 5px solid #fff;
+  transition: .3s;
+}
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem:hover
+.titleTime .scheduleTime{
+  border-right: 5px solid #66FCF1;
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTime{
+    width: 100px;
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+.titleTime .scheduleTime .timeStart,
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+.titleTime .scheduleTime .timeEnd{
+  font-size: 22px;
+  line-height: 23px;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTime .timeStart,
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTime .timeEnd{
+    font-size: 20px;
+    line-height: 21px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTime .timeStart,
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTime .timeEnd{
+    font-size: 18px;
+    line-height: 19px;
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+.titleTime .scheduleTitle{
+  width: calc(100% - 130px);
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTitle{
+    width: calc(100% - 100px);
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+.titleTime .scheduleTitle .thetTitle{
+  font-size: 35px;
+  line-height: 45px;
+  color: #fff;
+  margin: 0;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTitle .thetTitle{
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTitle .thetTitle{
+    padding-top: 7px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem
+  .titleTime .scheduleTitle .thetTitle{
+    padding-left: 20px;
+    padding-right: 0;
+    padding-top: 8px;
+    font-size: 20px;
+    line-height: 30px;
+   
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage{
+  width: 280px;
+  margin-left:385px;
+}
+
+/* -------------------------------- */
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage{
+    width: 200px;
+    margin-left:210px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage{
+    margin-top: 35px;
+    margin-left:70px;
+  }
+}
+/* -------------------------------- */
+
+.scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage img{
+  width:140px;
+  max-height: 140px;
+}
+
