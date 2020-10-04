@@ -967,33 +967,29 @@ li {
     padding-top: 8px;
     font-size: 20px;
     line-height: 30px;
-   
+    padding;
   }
 }
 /* -------------------------------- */
 
 .scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage{
   width: 280px;
-  margin-left:385px;
 }
 
 /* -------------------------------- */
 @media screen and (max-width: 991px) {
   .scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage{
     width: 200px;
-    margin-left:210px;
   }
 }
 @media screen and (max-width: 767px) {
   .scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage{
     margin-top: 35px;
-    margin-left:70px;
   }
 }
 /* -------------------------------- */
 
 .scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage img{
-  width:140px;
-  max-height: 140px;
+  width: 100%;
+  height: auto;
 }
-
