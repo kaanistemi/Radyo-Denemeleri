@@ -80,6 +80,7 @@ li {
   width: 40px;
   text-decoration: none;
   border-radius: 50%;
+ 
 
 
 }
@@ -90,9 +91,9 @@ li {
   padding: 10px;
   font-size: 30px;
   width: 40px;
-
   text-decoration: none;
   border-radius: 50%;
+  margin-top:-13px;
 
 }
 
@@ -102,9 +103,9 @@ li {
   padding: 10px;
   font-size: 30px;
   width: 40px;
-
   text-decoration: none;
   border-radius: 50%;
+  margin-top:-13px;
 
 }
 
@@ -114,9 +115,9 @@ li {
   padding: 10px;
   font-size: 30px;
   width: 40px;
-
   text-decoration: none;
   border-radius: 50%;
+  margin-top:-13px;
 
 }
 
@@ -125,10 +126,10 @@ li {
   color: #66FCF1;
   padding: 10px;
   font-size: 30px;
-  width: 40px;
-
+  width:40px;
   text-decoration: none;
   border-radius: 50%;
+  margin-top:-13px;
 
 }
 
@@ -304,6 +305,14 @@ li {
   }
 }
 
+.uppercase-2 {
+  color: #66FCF1;
+  font-family: 'Kanit', sans-serif;
+  font-size: 25px;
+}
+
+
+
 .btn {
   background-color: #66FCF1;
 }
@@ -333,7 +342,12 @@ li {
   max-height: 480px;
 }
 
-
+.program-3{
+    width: 100%;
+  min-height: 150px;
+  max-height: 480px; 
+  position: relative; 
+}
 .program {
   position: relative;
   -webkit-transform: scale(1);
@@ -377,9 +391,9 @@ li {
   background: #000000;
   color: #66FCF1;
   padding: 10px;
-  font-size: 30px;
-  width: 40px;
-
+  font-size: 22px;
+  width: 32px;
+  margin-top:-13px;
   text-decoration: none;
   border-radius: 50%;
 }
@@ -992,4 +1006,10 @@ li {
 .scheduleContainer .scheduleContent .scheduleTab .scheduleItem .scheduleImage img{
   width: 100%;
   height: auto;
+}
+
+.jumbotron {
+    background-color:#000;
+    border: 1px solid #66FCF1;
+
 }
