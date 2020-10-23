@@ -1015,6 +1015,61 @@ li {
 
 }
 
+#contact-pics {
+    overflow: auto;
+}
+
+#contact-pics img {
+        width: 100%;
+        height: auto;
+}
+
+.pic-large {
+        height:600px;
+        display: inline-block;
+        position: relative;
+        width: 65.99%;
+        float:left;
+}
 
 
+.pic-small {
+        height:250px;
+        display: inline-block;
+        position: relative;
+        width: 32.8%;
+        float:right;
+}
 
+
+.v-spacer {
+        display: inline-block;
+        position: relative;
+        width: 1.2%;
+        float:right;
+}
+
+
+.h-spacer {
+        display: inline-block;
+        position: relative;
+        width: 32.333333%;
+        float:right;
+}
+
+.pic-content {
+        position: absolute;
+        /*top: 0;*/
+        bottom: 0;
+        left: 0;
+        right: 0;       
+}
+
+
+.soundcloud-embedded {
+    margin-top:200px;
+}
+
+.soundcloud-pictures{
+    max-width:750px;
+}
