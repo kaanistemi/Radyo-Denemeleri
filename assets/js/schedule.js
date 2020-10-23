@@ -22,3 +22,5 @@ $(document).ready(function(){
         duration: 500
     });
 });
+
+// MDB Lightbox Init
