@@ -1114,14 +1114,14 @@ and (orientation : portrait) {
 }
 
 @media screen and (min-width: 630px) {
-.about-us {
-  margin-top:200px;
+.sound-margin {
+  margin-top:150px;
 }
 }
 
 @media screen and (max-width: 631px) {
-.about-us {
-  margin-top:100px;
+.sound-margin {
+  margin-top:80px;
 }
 }
 
