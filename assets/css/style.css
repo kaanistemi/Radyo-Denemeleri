@@ -1305,8 +1305,9 @@ transition: all 1s ease;
 }
 }
 
-@media screen and (max-width: 631px) {
-.sound-margin-2 {
-  margin-top:80px;
+@media screen and (max-width: 731px) {
+.about-us {
+  margin-bottom:0px;
 }
 }
+
