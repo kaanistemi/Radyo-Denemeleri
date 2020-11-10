@@ -1312,3 +1312,14 @@ transition: all 1s ease;
 }
 }
 
+@media screen and (max-width: 730px) {
+.radio-player {
+   margin-top:50px;
+}
+}
+
+@media screen and (min-width: 731px) {
+.radio-player{
+    margin-top:100px;
+}
+}
