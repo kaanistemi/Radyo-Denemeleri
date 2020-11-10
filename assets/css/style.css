@@ -557,7 +557,7 @@ li {
 }
 
 .about-us {
-  margin-bottom: 140px;
+  margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 730px) {
@@ -1308,6 +1308,7 @@ transition: all 1s ease;
 @media screen and (max-width: 731px) {
 .about-us {
   margin-bottom:0px;
+  margin-top:250px;
 }
 }
 
