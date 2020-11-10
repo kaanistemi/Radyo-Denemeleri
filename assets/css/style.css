@@ -1307,8 +1307,8 @@ transition: all 1s ease;
 
 @media screen and (max-width: 731px) {
 .about-us {
-  margin-bottom:50px;
-  margin-top:250px;
+  margin-bottom:150px;
+  margin-top:500px;
 }
 }
 
