@@ -71,7 +71,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+   <nav class="navbar navbar-expand-lg navbar-light bg-custom">
         <a class="navbar-brand" href="index.html">
 
             <img src=assets/images/LOGOSON2.png alt="Istanbul1" class="logo-circle" height=60 width=60><span
@@ -80,7 +80,7 @@
 
             </div>
         </a>
-
+ 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,23 +90,32 @@
         <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
 
             <ul class="navbar-nav ml-auto ">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#weekly"><p class="white-text-2"><i class="fa fa-calendar" aria-hidden="true"></i> Schedule</p><span class="sr-only">(current)</span></a> 
+                </li>
 
                 <li class="nav-item active">
+                    <a class="nav-link" href="#title-soundcloud"><p class="white-text-2"> <i class="fa fa-soundcloud" aria-hidden="true"></i> Soundcloud</p><span class="sr-only">(current)</span></a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#title-spotify"><p class="white-text-2"><i class="fa fa-spotify"  aria-hidden="true"></i> Spotify</p><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <p class="white-text-2"> About Us</p><span class="sr-only">(current)</span> 
+                    </a>
+                    <div class="dropdown-menu about-uslar" aria-labelledby="navbarDropdown">
+                     <a class="nav-link" href="program.html" target="_blank">
+                        <p class="white-text-3">Radio Shows</p><span class="sr-only">(current)</span>
+                    </a>
                     <a class="nav-link" href="ekip.html" target="_blank">
-                        <p class="white-text">Team</p><span class="sr-only">(current)</span>
+                        <p class="white-text-3">Team</p><span class="sr-only">(current)</span>
                     </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="program.html" target="_blank">
-                        <p class="white-text">Program</p><span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item active ">
+                    <div class="dropdown-divider"></div>
                     <a class="nav-link" href="iletisim.html" target="_blank">
-                        <p class="white-text">Contact</p><span class="sr-only">(current)</span>
+                        <p class="white-text-3">Contact</p><span class="sr-only">(current)</span>
                     </a>
-                </li>
-
+                    </div>  
 
             </ul>
 
@@ -130,7 +139,7 @@
     </div>
 
 
-    <section class="weekly">
+    <section class="weekly" id="weekly">
 
         <!-- schedule section header -->
         <div class=" container scheduleContainer">
@@ -138,7 +147,7 @@
             <nav class="scheduleHeader">
                 <ul class="scheduleDays">
                     <li class="daysItem">
-                        <a class="daysLink" link-day="monday">
+                        <a class="daysLink active" link-day="monday">
                             Monday
                         </a>
                     </li>
@@ -168,7 +177,7 @@
                         </a>
                     </li>
                     <li class="daysItem">
-                        <a class="daysLink active" link-day="sunday">
+                        <a class="daysLink" link-day="sunday">
                             Sunday 
                         </a>
                     </li>
@@ -1009,7 +1018,7 @@
 
 
 
-<div class="container-fluid sound-margin"> 
+<div class="container-fluid sound-margin" id="title-soundcloud"> 
 
     <h1 class="player-title-1">Guest Mix Series on Soundcloud<span class="dot-img-2"> ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</span></h1>
     <div class="row mt-3">
@@ -1026,7 +1035,7 @@
 </div>  
 
 
-<div class="container-fluid sound-margin-2 container-div-mobile-sound">
+<div class="container-fluid sound-margin-2 container-div-mobile-sound" id="title-spotify">
 <h1 class="player-title-2">Racoon Lists on Spotify<span class="dot-img"> ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</span></h1>  
     <div class="row mt-3">
         <div class= "col-md-4 spotify-photos" data-aos="fade-up">
@@ -1116,14 +1125,14 @@
                         <li class="list-inline-item">
                             <a target="_blank"
                                 href="https://open.spotify.com/user/gevuzhfxzgyex92c6g2jyb3g8?si=A5IXFq0ITm-7hktTOIG4jw">
-                                <i class="fa fa-spotify" aria-hidden="true"></i>
+                                <i class="fa fa-spotify yeni-icon" aria-hidden="true"></i> 
                                 <span class="sr-only">Spotify</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
                             <a target="_blank"
                                 href="https://soundcloud.com/radioracoon">
-                                <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                                <i class="fa fa-soundcloud yeni-icon-2" aria-hidden="true"></i>
                                 <span class="sr-only">Spotify</span>
                             </a>
                         </li>
@@ -1169,7 +1178,7 @@
 
         </div>
     </section>
-
+ 
 
 
 

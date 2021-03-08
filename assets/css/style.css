@@ -13,10 +13,24 @@
   margin: 0 0 3px 0;
   font-family: 'Righteous', cursive;
   font-size: 20px;
-
-
-
 }
+
+.about-uslar{
+    background-color: #fff;
+}
+
+
+.white-text-3 {
+  color: #fff;
+  margin: 0 0 3px 0;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
 .mobile-sound-div{
   display: none;
 }
@@ -36,26 +50,55 @@
 
 
 
-
-
-.navbar-light a:hover {
-  opacity: 0.9;
-  position: relative;
-  z-index: 1;
+.white-text-2{
+  text-decoration:none;
   color: #fff;
+  transition: 0.3s all;
+  transition-duration: 0.5s;
+  font-size: 21px;
+  margin: 2px -20px 0px 0;
+  font-family: 'Righteous', cursive;
+}
+
+@media screen and (min-width: 630px) {
+  .white-text-2 {
+    font-size: 21px;
+    
+  }
 }
 
 
-
-.navbar-light ul li a:hover {
-  display: inline-table;
-  background-color: #66FCF1;
-  transition: 1.2s;
-  border: 1px #66FCF1;
-  border-radius: 3.5px;
-  font-size: 120%;
-  transition-duration: 1.5s;
+@media screen and (max-width: 631px) {
+  .white-text-2{
+    font-size: 16px;
+    
+  }
 }
+
+@media screen and (min-width: 630px) {
+  .white-text-3 {
+    font-size: 20px;
+    
+  }
+}
+
+
+@media screen and (max-width: 631px) {
+  .white-text-3{
+    font-size: 15px;
+    
+  }
+}
+
+.white-text-2:hover{
+    color:#66FCF1;
+}
+
+
+.white-text-3:hover{
+    color: #66FCF1;
+}
+
 
 
 li {
@@ -112,19 +155,19 @@ li {
 
 }
 
-.fa-spotify {
+.yeni-icon {
   background: #0B0B0B;
   color: #66FCF1;
   padding: 10px;
   font-size: 30px;
   width: 40px;
-  text-decoration: none;
+  text-decoration: none; 
   border-radius: 50%;
   margin-top:-13px;
 
 }
 
-.fa-soundcloud {
+.yeni-icon-2 {
   background: #0B0B0B;
   color: #66FCF1;
   padding: 10px;
