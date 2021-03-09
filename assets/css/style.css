@@ -23,7 +23,7 @@
 .white-text-3 {
   color: #fff;
   margin: 0 0 3px 0;
-  font-family: 'Righteous', cursive;
+  font-family: 'Alfa Slab One', cursive;
   font-size: 20px;
 }
 
@@ -75,12 +75,12 @@
   transition-duration: 0.5s;
   font-size: 15px;
   margin: 2px 0px 0px 0;
-  font-family: 'Righteous', cursive;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 @media screen and (min-width: 630px) {
   .white-text-2 {
-    font-size: 16px;
+    font-size: 15px;
     
   }
 }
@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 631px) {
   .white-text-2{
-    font-size: 16px;
+    font-size: 14px;
     
   }
 }
