@@ -497,6 +497,11 @@ li {
 
 }
 
+.img-fluid-2 {
+    height: 40px;
+    width:130px;
+} 
+
 .program-2 {
   position: relative;
   -webkit-transform: scale(1);
@@ -1387,7 +1392,3 @@ transition: all 1s ease;
 }
 }
 
-.img-fluid-2 {
-    height: 40px;
-    width:130px;
-} 
