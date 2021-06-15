@@ -25,11 +25,11 @@ $(document).ready(function(){
 
 // MDB Lightbox Init
 $(document).ready(function(){
-    var defaultTab = $(".daysLink-2.active").attr("link-day");
+    var defaultTab = $(".daysLink-2.active").attr("link-day-2");
     $("#" + defaultTab).addClass("active");
 
     $(".daysLink-2").click(function(){
-        var day = $(this).attr("link-day");
+        var day = $(this).attr("link-day-2");
 
         $(".daysLink-2").removeClass("active");
         $(this).addClass("active");
