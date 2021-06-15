@@ -841,6 +841,17 @@ li {
   transition: .3s;
 }
 
+.scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink-2{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  line-height: 2;
+  text-transform: capitalize;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s;
+}
+
 /* -------------------------------- */
 @media screen and (max-width: 991px) {
   .scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink{
@@ -852,6 +863,17 @@ li {
     font-size: 20px;
   }
 }
+
+@media screen and (max-width: 991px) {
+  .scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink-2{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink-2{
+    font-size: 20px;
+  }
+}
 /* -------------------------------- */
 
 
@@ -860,8 +882,17 @@ li {
   color: #66FCF1;
 }
 
+.scheduleContainer .scheduleHeader .scheduleDays .daysItem
+.daysLink-2.active{
+  color: #E83C5F;
+}
+
 .scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink:hover{
   color: #66FCF1;
+}
+
+.scheduleContainer .scheduleHeader .scheduleDays .daysItem .daysLink-2:hover{
+  color:  #E83C5F;
 }
 
 /* schedule content styles start */
