@@ -813,7 +813,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 15px;
+  padding: 0px;
 }
 
 .scheduleContainer .scheduleHeader .scheduleDays .daysItem{
@@ -1371,8 +1371,37 @@ transition: all 1s ease;
 .dot-img-2{
     width:650px;
 }
+.sat a:hover{
+	color:#E83C5F !Important;
+}
 
-
+.sat .active{
+	color:#E83C5F !Important;
+}
+#saturday{
+	    border: 7px solid #E83C5F;
+	 
+}
+#saturday a{
+	
+	 margin: 0px;
+    padding: 60px 5%;
+}
+#saturday a:hover{
+	    background-color: #E83C5F;
+   
+}
+#saturday a:hover p{color:black;}
+#saturday a:hover img{border:5px solid white;}
+#saturday a .titleTime .scheduleTime{
+	border-right: 5px solid white !Important;
+}
+#saturday .timeStart{
+	font-weight:bold;
+}
+#saturday .timeEnd{
+	font-weight:bold;
+}
 
 @media screen and (min-width: 1530px) {
 .dot-img{
@@ -1398,6 +1427,7 @@ transition: all 1s ease;
 }
 }
 
+
 @media screen and (min-width: 630px) {
 .sound-margin-2 {
   margin-top:150px;
@@ -1422,4 +1452,16 @@ transition: all 1s ease;
     margin-top:100px;
 }
 }
+
+.sescibaba {
+    height: 45px; 
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 730px) {
+.sescibaba {
+   height: 35px;
+}
+}
+
 
