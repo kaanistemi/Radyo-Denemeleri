@@ -2,7 +2,7 @@
   background-color: #000000
 }
 
-.more-info {
+.more-info-2 {
   position: relative;
   top: 15px;
   color: #66FCF1
@@ -241,13 +241,13 @@ li {
   background-color: #0B0B0B
 }
 
-.more-info {
+.more-info-2 {
   font-family: 'Alfa Slab One', cursive;
   word-spacing: 4px;
-  color: #66FCF1;
+  color: #66FCF1 !important;
   margin-top: 40px;
   font-size: 25px;
-}
+} 
 
 .day-blue {
   color: #66FCF1;
