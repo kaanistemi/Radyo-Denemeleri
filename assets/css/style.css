@@ -2,7 +2,7 @@
   background-color: #000000
 }
 
-.more-info-2 {
+.more-info {
   position: relative;
   top: 15px;
   color: #E83C5F
@@ -241,7 +241,7 @@ li {
   background-color: #0B0B0B
 }
 
-.more-info-2 {
+.more-info {
   font-family: 'Alfa Slab One', cursive;
   word-spacing: 4px;
   color: #E83C5F !important;
