@@ -2,10 +2,10 @@
   background-color: #000000
 }
 
-.more-info {
+.more-info-2 {
   position: relative;
   top: 15px;
-  color: #66FCF1;
+  color: #E83C5F;
 }
 
 .white-text {
@@ -241,10 +241,10 @@ li {
   background-color: #0B0B0B
 }
 
-.more-info {
+.more-info-2 {
   font-family: 'Alfa Slab One', cursive !important;
   word-spacing: 4px !important;
-  color: #66FCF1 !important;
+  color: #E83C5F !important;
   margin-top: 40px !important;
   font-size: 25px !important;
 } 
